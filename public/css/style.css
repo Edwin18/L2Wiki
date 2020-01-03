@@ -1,0 +1,60 @@
+/* .visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+.pointer {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  width: 600px;
+	margin: auto;
+}
+
+.main__input {
+  display: flex;
+
+	margin: auto;
+}
+
+.item-container {
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__info {
+  display: flex;
+}
+
+.item__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__ingredients {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 32px;
+}
